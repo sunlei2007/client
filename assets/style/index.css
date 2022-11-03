@@ -1,0 +1,42 @@
+﻿@import "reset.css";
+
+:root {
+    --app-header-height: 56px;
+    --app-footer-height: 112px;
+    --app-padding-width: 40px;
+    --app-blue:#0417f1;
+}
+main{
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    background-color:#000;
+}
+ 
+.input-cls {
+    width: 250px;
+    height: 50px;
+    border-radius: 4px;
+}
+.input-darkmode {
+    background-color: #303030;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+.btn-compute {
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    background-color: var(--app-blue);
+    border-radius: 4px;
+    margin-left:10px;
+    animation: banner-content 0.5s ease-in-out;
+    animation-duration: 3s;
+    transition: all 0.25s ease-in-out;
+}
+
+.btn-compute:hover {
+        background-color: #0f97fb;
+}
