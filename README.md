@@ -1,2 +1,2 @@
 # client
-simple js
+Simple js generate ramdom
