@@ -10,8 +10,12 @@ window.onload = function () {
         console.log(isBegin);
         if (isBegin!==0) {
             newNum.innerText = `${getRandomNum()}`;
+            newNum.style.color = getRandomColor();
         }
     }, 1000);
+}
+function getRandomColor() {
+    return '#' + (Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, '0'))
 }
 function getRandomNum()
 {
